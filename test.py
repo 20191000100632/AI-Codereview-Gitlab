@@ -24,7 +24,7 @@ def excel_to_jsonl(excel_path, jsonl_path):
         # 构造符合要求的 JSON 对象
         json_object = {
             "messages": [
-                {"role": "system", "content": "你是多乐游戏的客服，请根据用户的问题提供准确的回答。"},
+                {"role": "system", "content": "系统提示词，此处隐藏"},
                 {"role": "user", "content": question},
                 {"role": "assistant", "content": answer}
             ]
