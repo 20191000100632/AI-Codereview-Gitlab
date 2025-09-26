@@ -38,6 +38,4 @@ def excel_to_jsonl(excel_path, jsonl_path):
 
     print(f"JSONL 数据集已保存到 {jsonl_path}")
 
-# 示例用法
-if __name__ == "__main__":
-    excel_to_jsonl("/opt/workspace/all.xlsx", "/opt/workspace/all_0.jsonl")
+
